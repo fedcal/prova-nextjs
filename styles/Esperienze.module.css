@@ -1,0 +1,110 @@
+.container{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.education h1{
+    color: rgb(248, 217, 15);
+    margin-bottom: 20px;
+    font-size: 2ewm;
+}
+.experience h1{
+    color: rgb(248, 217, 15);
+    margin-bottom: 20px;
+}
+
+.container .row .education,
+.container .row .experience{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+}
+
+.container .row .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    color: white;
+
+
+}
+
+.container .row .timeline{
+    background-color: #1a1919;
+    padding: 30px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.container .row .timeline .timeline-item{
+   position: relative;
+   padding-left: 37px;
+   padding-bottom: 50px; 
+}
+
+.container .row .timeline .timeline-item:last-child{
+    padding-bottom: 0;
+}
+.container .row .timeline .timeline-item::before{
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: rgb(162, 122, 3);
+}
+.container .row .timeline .circle-dot{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(162, 122, 3);
+}
+.container .row .timeline .timeline-item .timeline-date{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+}
+.container .row .timeline .timeline-item .timeline-title{
+    font-weight: 700;
+    font-size: 1.35rem;
+    margin-bottom: 15px;
+    color: rgb(248, 217, 15);
+
+}
+
+.container .row .timeline .timeline-item .timeline-text{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.container .row ul li{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.container .row ul li::before{
+    content: "\2022"; 
+    color: rgb(248, 217, 15); 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
+
+@media screen and (max-width:991px){
+    .container .row .education,.container .row .experience{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+}
