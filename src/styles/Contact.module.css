@@ -1,0 +1,32 @@
+.contactInfo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+.contactInfo .card{
+    padding: 0 20px;
+    margin: 20px 20px;
+    width: 350px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactInfo .card .card-icon{
+    background-color: white;
+    text-align: center;
+    border-radius:50% ;
+    padding: 10px;
+
+}
+
+.contactInfo .card .contactText{
+    font-size: 22px!important;
+    margin-top: 5px;
+}
