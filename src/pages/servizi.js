@@ -3,10 +3,13 @@ import HeroImg2 from "@/components/Hero/HeroImg2";
 import Navbar from "@/components/Navbar/Navbar";
 import ServiziCArd from "@/components/Servizi/ServiziCard";
 import Head from 'next/head';
+import Script from 'next/script';
 
 const Servizi = () =>{
     return (
         <>
+            <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+            crossOrigin="anonymous"></Script>
             <Head>
                 <meta name='keywords' content='Copywriter, redazione testi, ottimizzazione testi, tecniche SEO, Social Management,Gestione dei profili social, gestione della pubblicazione dei post,aumento del numero di followers'/>
                 <meta name='description' content='Servizi offerti da Fedeirco Calò per la creazione di siti web, gestionali o software per la propria azienda. Analisi dei dati e documentazione tecnica funzionale.'/>
@@ -23,8 +26,7 @@ const Servizi = () =>{
                 <meta name='apple-touch-fullscreen' content='yes'/>
                 <title>Federico Calò - Servizi</title>
                 <link rel="canonical" href="https://www.federicocalo.dev/servizi" />
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+                
             </Head>
             <Navbar/>
             <HeroImg2 heading="SERVIZI"text="Ecco in cosa posso esserti d'aiuto"/>

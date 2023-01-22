@@ -1,14 +1,14 @@
 import Head from 'next/head';
-import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
 import Navbar from '@/components/Navbar/Navbar';
 import Footer from '@/components/Footer/Footer';
 import HeroImg from '@/components/Hero/HeroImg';
 import AboutContent from '@/components/About/About';
 import WorkCardPreview from '@/components/Progetti/WorkCardPreview';
+import Script from 'next/script';
 
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   const schemaData={
@@ -49,10 +49,30 @@ export default function Home() {
   return (
   
     <div className={styles.container}>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-S3TS9T66B6"></Script>
+      <Script>{`
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-S3TS9T66B6");`}
+      </Script>
+      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+        crossOrigin="anonymous"></Script>
+      <Script src="https://code.jquery.com/jquery-3.6.1.js"  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossOrigin="anonymous"></Script>
       <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-        crossorigin="anonymous"></script>
+      <meta charset="UTF-8" />
+      <meta name="robots" content="index, follow, max-snippet:[100]" />
+      <meta name="googlebot" content="index, follow, max-snippet:[100], max-image-preview:[standard]"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black"/>
+      <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black"/>
+
+      <link rel="manifest" href="/manifest.json" crossorigin="anonymous" />
+      <link rel="icon" type="img/png" href="/favc.png" />
         <meta name="description" content="Sviluppo applicazioni web, sistemi gestionali, siti web per la propria attività. Linguaggi e Framework utilizzati: Java, Python, C, C++, Spring Boot, MERN."/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />

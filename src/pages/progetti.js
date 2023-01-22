@@ -3,10 +3,13 @@ import HeroImg2 from "@/components/Hero/HeroImg2";
 import Navbar from "@/components/Navbar/Navbar";
 import WorkCard from "@/components/Progetti/WorkCard";
 import Head from 'next/head';
+import Script from 'next/script';
 
 const Progetti = () =>{
     return (
         <>
+            <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
+            crossOrigin="anonymous"></Script>
             <Head>
                 <title>Federico Calò - Progetti sviluppati</title>
                 <meta name='keywords' content='HTML, ReactJs, sito web, website, Java, Spring Boot, Css, Javascript, Helmet,JavaScript, MySQL, MVC, Protocollo TCP, Protocollo UDP,Portfolio'/>
@@ -23,8 +26,7 @@ const Progetti = () =>{
                 <meta name='apple-mobile-web-app-capable' content='yes'/>
                 <meta name='apple-touch-fullscreen' content='yes'/>
                 <link rel="canonical" href="https://www.federicocalo.dev/progetti" />
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
-            crossorigin="anonymous"></script>
+                
             </Head>
             <Navbar/>
             <HeroImg2 heading="PROGETTI" text="Una panoramica sui progetti che ho sviluppato."/>

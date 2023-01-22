@@ -1,0 +1,127 @@
+
+
+.section{
+    padding: 3rem 0 2rem;
+}
+
+.container{
+    max-width: 1800px;
+    margin: auto;
+    width:100%;
+    color: #fff;
+}
+
+.postFilter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    margin-top: 2rem;
+}
+.postFilter .filterItem{
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 5px;
+}
+.postFilter  .activeFilter{
+    background: rgb(248, 217, 15);
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: #000;
+}
+
+.post{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.post .postBox{
+    background: #1a1919;
+    padding: 15px;
+    border-radius: 0.5rem;
+    border: 1px solid #fff;
+    max-height: 850px;
+    width: 380px;
+    margin: 10px 10px 30px 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.post .postBox .postImg{
+    width: 100%;
+    height: 200px;
+    object-position: center;
+    border-radius: 0.5rem;
+}
+
+.post .postBox .category{
+    font-size: 1.05rem;
+    color: rgb(248, 186, 15);
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.post .postBox .postTitle{
+    font-size: 1.6rem;
+    color: rgb(248, 217, 15);
+    margin-bottom: 5px;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post .postBox .postDate{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(74, 185, 250);
+}
+
+.post .postBox .autore{
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 198, 15);
+    text-decoration-thickness:2px ;
+}
+
+.post .postBox .postDescription{
+    font-size: 1.2rem;
+    line-height: 25px;
+    margin: 5px 0 25px;
+}
+.post .postBox .link{
+    margin-bottom: 15px;
+    bottom: 0;
+    margin:auto;
+    padding:20px
+}
+.first-text{
+    margin-top: 25px;
+}
+
+
+@media screen and (max-width:1150px){
+    .post{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:799px){
+    .post{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (max-width:599px){
+    .post{
+        justify-content: center;
+    }
+}
