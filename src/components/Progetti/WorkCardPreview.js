@@ -31,10 +31,10 @@ const WorkCardPreview = ()=> {
                 <Image src={abitareMicocci} alt="Preview del sito di Abitare Micocci" />
                 <h2 className={styles.projectTitle}>Abitare Micocci</h2>
                 <div className={styles.proDetails}>
-                    <p>Sito web realizzato per un negozio di arredamento attraverso i linguaggi HTML, CSS e Javascript. Attraverso l'utilizzo
-                        di quest'ultimo linguaggio lo scorrimento verticale del sito è stato reso più gradevole e sono state create delle piccole 
-                        gallerie per le immagini. Inoltre è stato condotto uno studio SEO sui testi presenti all'interno del sito, per migliorarne 
-                        il posizionamento all'interno del ranking di ricerca Google.
+                    <p>Sito web realizzato per un negozio di arredamento attraverso i linguaggi HTML, CSS e Javascript. Attraverso l&apos;utilizzo
+                        di quest&apos;ultimo linguaggio lo scorrimento verticale del sito è stato reso più gradevole e sono state create delle piccole 
+                        gallerie per le immagini. Inoltre è stato condotto uno studio SEO sui testi presenti all&apos;interno del sito, per migliorarne 
+                        il posizionamento all&apos;interno del ranking di ricerca Google.
                     </p>
                 </div>
                 <div className={styles.proBtns}>
@@ -48,8 +48,8 @@ const WorkCardPreview = ()=> {
                 <h2 className={styles.projectTitle}>Regression Tree Mining</h2>
                 <div className={styles.proDetails}>
                     <p>Progetto universitario sviluppato in Java. Consiste nel creare un albero di regressione da dei dati che vengono
-                        letti da un database o da un file testuale. L'albero viene successivamente percorso attraverso delle regole selezionate
-                        dall'utente e infine verrà predetto un dato.
+                        letti da un database o da un file testuale. L&apos;albero viene successivamente percorso attraverso delle regole selezionate
+                        dall&apos;utente e infine verrà predetto un dato.
                     </p>
                 </div>
                 <div className={styles.proBtns}>

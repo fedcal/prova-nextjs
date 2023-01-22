@@ -37,10 +37,10 @@ function WorkCard() {
                 <Image loading="lazy" decoding="async" src={abitareMicocci} alt="Preview del sito di Abitare Micocci" />
                 <h2 className={styles.projectTitle}>Abitare Micocci</h2>
                 <div className={styles.proDetails}>
-                    <p>Sito web realizzato per un negozio di arredamento attraverso i linguaggi HTML, CSS e Javascript. Attraverso l'utilizzo
-                        di quest'ultimo linguaggio lo scorrimento verticale del sito è stato reso più gradevole e sono state create delle piccole 
-                        gallerie per le immagini. Inoltre è stato condotto uno studio SEO sui testi presenti all'interno del sito, per migliorarne 
-                        il posizionamento all'interno del ranking di ricerca Google.
+                    <p>Sito web realizzato per un negozio di arredamento attraverso i linguaggi HTML, CSS e Javascript. Attraverso l&apos;utilizzo
+                        di quest&apos;ultimo linguaggio lo scorrimento verticale del sito è stato reso più gradevole e sono state create delle piccole 
+                        gallerie per le immagini. Inoltre è stato condotto uno studio SEO sui testi presenti all&apos;interno del sito, per migliorarne 
+                        il posizionamento all&apos;interno del ranking di ricerca Google.
                     </p>
                 </div>
                 <div className={styles.proBtns}>
@@ -54,8 +54,8 @@ function WorkCard() {
                 <h2 className={styles.projectTitle}>Regression Tree Mining</h2>
                 <div className={styles.proDetails}>
                     <p>Progetto universitario sviluppato in Java. Consiste nel creare un albero di regressione da dei dati che vengono
-                        letti da un database o da un file testuale. L'albero viene successivamente percorso attraverso delle regole selezionate
-                        dall'utente e infine verrà predetto un dato.
+                        letti da un database o da un file testuale. L&apos;albero viene successivamente percorso attraverso delle regole selezionate
+                        dall&apos;utente e infine verrà predetto un dato.
                     </p>
                 </div>
                 <div className={styles.proBtns}>
@@ -67,7 +67,7 @@ function WorkCard() {
                 <Image loading="lazy" decoding="async" src={gestionaleDipendenti} alt="Preview del gestionale dipendenti creato"/>
                 <h2 className={styles.projectTitle}>Gestionale Dipendenti</h2>
                 <div className={styles.proDetails}>
-                    <p>Un esempio di gestionale creato con ReactJs per quanto riguarda l'interfaccia web, mentre per il lato backend
+                    <p>Un esempio di gestionale creato con ReactJs per quanto riguarda l&apos;interfaccia web, mentre per il lato backend
                         ho utilizzato la libreria SpringBoot di Java. I dati vengono salvati su un database MySQL in locale. Il pattern
                         co cui è stato creato il progetto è il MVC.
                     </p>
@@ -81,10 +81,10 @@ function WorkCard() {
                 <Image loading="lazy" decoding="async" src={tcp} alt="Schema del protocollo TCP" />
                 <h2 className={styles.projectTitle}>Protocollo TCP</h2>
                 <div className={styles.proDetails}>
-                    <p>Per la prova in itinere dell'esame di Reti di Calcolatori, ci è stata fornita una traccia per 
-                        l'implementazione di una calcolatrice che sfruttasse il protocollo TCP tra un client e un server
-                        in locale. Il client richiedeva sotto forma di stringa l'operazione da calcolare e la inviava al 
-                        server, dopo aver stabilito la connessione. Il server restituiva la stringa con l'operazione calcolata. 
+                    <p>Per la prova in itinere dell&apos;esame di Reti di Calcolatori, ci è stata fornita una traccia per 
+                        l&apos;implementazione di una calcolatrice che sfruttasse il protocollo TCP tra un client e un server
+                        in locale. Il client richiedeva sotto forma di stringa l&apos;operazione da calcolare e la inviava al 
+                        server, dopo aver stabilito la connessione. Il server restituiva la stringa con l&apos;operazione calcolata. 
                     </p>
                 </div>
                 <div className={styles.proBtns}>
@@ -96,7 +96,7 @@ function WorkCard() {
                 <Image loading="lazy" decoding="async" src={udp} alt="Schema del protocollo UDP" />
                 <h2 className={styles.projectTitle}>Protocollo UDP</h2>
                 <div className={styles.proDetails}>
-                    <p>Un esempio di gestionale creato con ReactJs per quanto riguarda l'interfaccia web, mentre per il lato backend
+                    <p>Un esempio di gestionale creato con ReactJs per quanto riguarda l&apos;interfaccia web, mentre per il lato backend
                         ho utilizzato la libreria SpringBoot di Java. I dati vengono salvati su un database MySQL in locale. Il pattern
                         co cui è stato creato il progetto è il MVC.
                     </p>
@@ -110,7 +110,7 @@ function WorkCard() {
                 <Image loading="lazy" decoding="async" src={portfolioTemplate1} alt="Preview di un template per un portfolio" />
                 <h2 className={styles.projectTitle}>Portfolio Template</h2>
                 <div className={styles.proDetails}>
-                    <p>Ho realizzato un piccolo sito web rappresentante un template per un portfolio online o un CV. E' stato sviluppato
+                    <p>Ho realizzato un piccolo sito web rappresentante un template per un portfolio online o un CV. E&apos; stato sviluppato
                         in HTML, CSS e javascript, rendendolo responsive per essere visualizzato su qualsiasi dispositivo. Non è stato
                         eseguito nessuno studio SEO in merito, in quanto sito prototipo, ciò non toglie che verrà fatto una volta che 
                         qualcuno commissionerà il lavoro.
@@ -124,7 +124,7 @@ function WorkCard() {
 
             <div className={styles.projectCard}>
                 <Image loading="lazy" decoding="async" src={worldsInn} alt="Preview del sito di worlds inn" />
-                <h2 className={styles.projectTitle}>Worlds' Inn</h2>
+                <h2 className={styles.projectTitle}>Worlds&apos; Inn</h2>
                 <div className={styles.proDetails}>
                     <p>Sito web riguardante un progetto relativo ai giochi di ruolo. Realizzato con il linguaggio Sass, HTML  e javascript, il sito è
                         stato creato per sperimentare nuove tecniche di sviluppo e avviare uno studio SEO riguardante un settore di nicchia, in cui
@@ -155,7 +155,7 @@ function WorkCard() {
                 <Image loading="lazy" decoding="async" src={pizzeria} alt="Preview del sito template per una pizzeria" />
                 <h2 className={styles.projectTitle}>Sito template pizzeria</h2>
                 <div className={styles.proDetails}>
-                    <p>Ho realizzato un piccolo sito web rappresentante un template per una pizzeria. E' stato sviluppato
+                    <p>Ho realizzato un piccolo sito web rappresentante un template per una pizzeria. E&apos; stato sviluppato
                         in HTML, CSS e javascript, rendendolo responsive per essere visualizzato su qualsiasi dispositivo. Non è stato
                         eseguito nessuno studio SEO in merito, in quanto sito prototipo, ciò non toglie che verrà fatto una volta che 
                         qualcuno commissionerà il lavoro.
