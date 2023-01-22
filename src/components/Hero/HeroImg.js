@@ -13,8 +13,8 @@ const HeroImg = () => {
             <h1>Federico Calò</h1>
             <p>Sviluppatore e Analista Software</p>
             <div>
-                <Link href="/progetti" className='btn'>Progetti</Link>
-                <Link href='/contatti' className='btn btnLight'>Contattami</Link>
+                <Link href="/progetti" className={styles.pulsante}>Progetti</Link>
+                <Link href='/contatti' className={[styles.pulsante, styles.btnLight]}>Contattami</Link>
             </div>
         </div>
     </div>

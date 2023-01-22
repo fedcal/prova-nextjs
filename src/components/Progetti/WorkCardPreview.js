@@ -22,8 +22,8 @@ const WorkCardPreview = ()=> {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/portfolio-personale-reactjs' className='btn'>GitHub</a>
-                    <a href='https://federicocalo.dev/' className='btn'>Sito</a>
+                    <a href='https://github.com/fedcal/portfolio-personale-reactjs' className={styles.pulsante}>GitHub</a>
+                    <a href='https://federicocalo.dev/' className={styles.pulsante}>Sito</a>
                 </div>
             </div>
 
@@ -38,8 +38,8 @@ const WorkCardPreview = ()=> {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/AbitareMicocci/abitare.github.io' className='btn'>GitHub</a>
-                    <a href='https://abitaremicocci.com/' className='btn'>Sito</a>
+                    <a href='https://github.com/AbitareMicocci/abitare.github.io' className={styles.pulsante}>GitHub</a>
+                    <a href='https://abitaremicocci.com/' className={styles.pulsante}>Sito</a>
                 </div>
             </div>
 
@@ -53,12 +53,12 @@ const WorkCardPreview = ()=> {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/RegressionTreeJava' className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/RegressionTreeJava' className={styles.pulsante}>GitHub</a>
                 </div>
             </div>
         </div>
         <div className={styles.projectHeading}>
-            <Link href='/progetti'className='btn'>Tutti i progetti</Link>
+            <Link href='/progetti'className={styles.pulsante}>Tutti i progetti</Link>
         
         </div>
         

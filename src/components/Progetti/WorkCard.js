@@ -28,8 +28,8 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/portfolio-personale-reactjs' className='btn'>GitHub</a>
-                    <a href='https://federicocalo.dev/' className='btn'>Sito</a>
+                    <a href='https://github.com/fedcal/portfolio-personale-reactjs' className={styles.pulsante}>GitHub</a>
+                    <a href='https://federicocalo.dev/' className={styles.pulsante}>Sito</a>
                 </div>
             </div>
 
@@ -44,8 +44,8 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/AbitareMicocci/abitare.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
-                    <a href='https://abitaremicocci.com/' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>Sito</a>
+                    <a href='https://github.com/AbitareMicocci/abitare.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.pulsante}>GitHub</a>
+                    <a href='https://abitaremicocci.com/' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.pulsante}>Sito</a>
                 </div>
             </div>
 
@@ -59,7 +59,7 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/RegressionTreeJava' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/RegressionTreeJava' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.pulsante}>GitHub</a>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.pulsante}>GitHub</a>
                 </div>
             </div>
 
@@ -88,7 +88,7 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/Server_Client_TCP' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/Server_Client_TCP' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.pulsante}>GitHub</a>
                 </div>
             </div>
 
@@ -102,7 +102,7 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/Client_Server_UDP' target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/Client_Server_UDP' target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.pulsante}>GitHub</a>
                 </div>
             </div>
 
@@ -117,8 +117,8 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/TemplaeteWebsite1.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
-                    <a href='https://fedcal.github.io/TemplaeteWebsite1.github.io/' target='_blank'rel="noopener noreferrer" aria-label="Site page" className='btn'>Sito</a>
+                    <a href='https://github.com/fedcal/TemplaeteWebsite1.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.pulsante}>GitHub</a>
+                    <a href='https://fedcal.github.io/TemplaeteWebsite1.github.io/' target='_blank'rel="noopener noreferrer" aria-label="Site page" className={styles.pulsante}>Sito</a>
                 </div>
             </div>
 
@@ -132,7 +132,7 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io'target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
+                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io'target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.pulsante}>GitHub</a>
                 </div>
             </div>
 
@@ -146,8 +146,8 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/casadellemagnolie.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
-                    <a href='https://casadellemagnolie.com/'target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>Sito</a>
+                    <a href='https://github.com/fedcal/casadellemagnolie.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.pulsante}>GitHub</a>
+                    <a href='https://casadellemagnolie.com/'target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.pulsante}>Sito</a>
                 </div>
             </div>
 
@@ -162,8 +162,8 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/template_pizzeria1.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
-                    <a href='https://fedcal.github.io/template_pizzeria1.github.io/'target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>Sito</a>
+                    <a href='https://github.com/fedcal/template_pizzeria1.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.pulsante}>GitHub</a>
+                    <a href='https://fedcal.github.io/template_pizzeria1.github.io/'target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.pulsante}>Sito</a>
                 </div>
             </div>
         </div>

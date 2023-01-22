@@ -17,7 +17,7 @@ h1,h4,p,a{
 ul{
   list-style: none;
 }
-.btn{
+.pulsante{
   padding: 12px 32px;
   font-size: 1rem;
   background: rgb(248, 217, 15);
@@ -31,8 +31,12 @@ ul{
   background: transparent;
   color:#fff;
 }
-.btn:hover{
+.pulsante:hover{
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   transition: 0.3s;
+}
+
+.content .pulsante{
+  margin:1rem 0.2rem;
 }

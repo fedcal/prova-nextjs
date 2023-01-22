@@ -36,7 +36,7 @@ const AboutContent = () => {
                       <br/>
                       <br/>
                       <div className={styles.cvDw}>
-                          <a href="@/CV_Federico_Calo.pdf" className='btn' download>Scarica CV</a>
+                          <a href="@/CV_Federico_Calo.pdf" className={styles.pulsante} download>Scarica CV</a>
                       </div>
               </div>
               
