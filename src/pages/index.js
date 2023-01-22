@@ -16,6 +16,8 @@ export default function Home() {
   
     <div className={styles.container}>
       <Navbar/>
+      <HeroImg/>
+      <AboutContent/>
       <WorkCardPreview/>
       <Footer/>
     </div>

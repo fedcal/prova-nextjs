@@ -1,15 +1,14 @@
 import styles from '@/styles/WorkCard.module.css';
-
-import abitareMicocci from '@/assets/abitaremicocci.webp';
-import portfolioTemplate1 from '@/assets/PortfolioTamplate1.webp';
-import worldsInn from '@/assets/worldsinn.webp';
-import gestionaleDipendenti from '@/assets/gestionaleDipendenti.webp';
-import casaMagnolie from '@/assets/casaMagnolie.webp';
-import portfolio from '@/assets/portfolio.webp';
-import regressionTree from '@/assets/tree3.webp';
-import tcp from '@/assets/tcp.webp';
-import udp from '@/assets/udp.webp';
-import pizzeria from '@/assets/Pizzeria.webp';
+import abitareMicocci from '../../../public/abitaremicocci.webp';
+import portfolioTemplate1 from '../../../public/PortfolioTamplate1.webp';
+import worldsInn from '../../../public/worldsinn.webp';
+import gestionaleDipendenti from '../../../public/gestionaleDipendenti.webp';
+import casaMagnolie from '../../../public/casaMagnolie.webp';
+import portfolio from '../../../public/portfolio.webp';
+import regressionTree from '../../../public/tree3.webp';
+import tcp from '../../../public/tcp.webp';
+import udp from '../../../public/udp.webp';
+import pizzeria from '../../../public/Pizzeria.webp';
 import Image from 'next/image'
 
 function WorkCard() {
@@ -19,7 +18,7 @@ function WorkCard() {
         <div className={styles.projectContainer}>
             
             <div className={styles.projectCard}>
-                <Image loading="lazy" decoding="async" src={portfolio} alt="preview del sito personale"/>
+                <Image loading="lazy" decoding="async" src={portfolio} alt="preview del sito personale" />
                 <h2 className={styles.projectTitle}>Portfolio Personale</h2>
                 <div className={styles.proDetails}>
                     <p>Nato come progetto sviluppato nel tempo libero, questo mio sito web è stato realizzato interamente con la 
@@ -29,13 +28,13 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/portfolio-personale-reactjs' className={styles.btn}>GitHub</a>
-                    <a href='https://federicocalo.dev/' className={styles.btn}>Sito</a>
+                    <a href='https://github.com/fedcal/portfolio-personale-reactjs' className='btn'>GitHub</a>
+                    <a href='https://federicocalo.dev/' className='btn'>Sito</a>
                 </div>
             </div>
 
             <div className={styles.projectCard}>
-                <Image loading="lazy" decoding="async" src={abitareMicocci} alt="Preview del sito di Abitare Micocci"/>
+                <Image loading="lazy" decoding="async" src={abitareMicocci} alt="Preview del sito di Abitare Micocci" />
                 <h2 className={styles.projectTitle}>Abitare Micocci</h2>
                 <div className={styles.proDetails}>
                     <p>Sito web realizzato per un negozio di arredamento attraverso i linguaggi HTML, CSS e Javascript. Attraverso l'utilizzo
@@ -45,13 +44,13 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/AbitareMicocci/abitare.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.btn}>GitHub</a>
-                    <a href='https://abitaremicocci.com/' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.btn}>Sito</a>
+                    <a href='https://github.com/AbitareMicocci/abitare.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
+                    <a href='https://abitaremicocci.com/' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>Sito</a>
                 </div>
             </div>
 
             <div className={styles.projectCard}>
-                <Image loading="lazy" decoding="async" src={regressionTree} alt="Immagine di un regression Tree Mining"/>
+                <Image loading="lazy" decoding="async" src={regressionTree} alt="Immagine di un regression Tree Mining" />
                 <h2 className={styles.projectTitle}>Regression Tree Mining</h2>
                 <div className={styles.proDetails}>
                     <p>Progetto universitario sviluppato in Java. Consiste nel creare un albero di regressione da dei dati che vengono
@@ -60,7 +59,7 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/RegressionTreeJava' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.btn}>GitHub</a>
+                    <a href='https://github.com/fedcal/RegressionTreeJava' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
                 </div>
             </div>
 
@@ -74,12 +73,12 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.btn}>GitHub</a>
+                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
                 </div>
             </div>
 
             <div className={styles.projectCard}>
-                <Image loading="lazy" decoding="async" src={tcp} alt="Schema del protocollo TCP"/>
+                <Image loading="lazy" decoding="async" src={tcp} alt="Schema del protocollo TCP" />
                 <h2 className={styles.projectTitle}>Protocollo TCP</h2>
                 <div className={styles.proDetails}>
                     <p>Per la prova in itinere dell'esame di Reti di Calcolatori, ci è stata fornita una traccia per 
@@ -89,12 +88,12 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/Server_Client_TCP' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.btn}>GitHub</a>
+                    <a href='https://github.com/fedcal/Server_Client_TCP' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
                 </div>
             </div>
 
             <div className={styles.projectCard}>
-                <Image loading="lazy" decoding="async" src={udp} alt="Schema del protocollo UDP"/>
+                <Image loading="lazy" decoding="async" src={udp} alt="Schema del protocollo UDP" />
                 <h2 className={styles.projectTitle}>Protocollo UDP</h2>
                 <div className={styles.proDetails}>
                     <p>Un esempio di gestionale creato con ReactJs per quanto riguarda l'interfaccia web, mentre per il lato backend
@@ -103,12 +102,12 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/Client_Server_UDP' target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.btn}>GitHub</a>
+                    <a href='https://github.com/fedcal/Client_Server_UDP' target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
                 </div>
             </div>
 
             <div className={styles.projectCard}>
-                <Image loading="lazy" decoding="async" src={portfolioTemplate1} alt="Preview di un template per un portfolio"/>
+                <Image loading="lazy" decoding="async" src={portfolioTemplate1} alt="Preview di un template per un portfolio" />
                 <h2 className={styles.projectTitle}>Portfolio Template</h2>
                 <div className={styles.proDetails}>
                     <p>Ho realizzato un piccolo sito web rappresentante un template per un portfolio online o un CV. E' stato sviluppato
@@ -118,13 +117,13 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/TemplaeteWebsite1.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.btn}>GitHub</a>
-                    <a href='https://fedcal.github.io/TemplaeteWebsite1.github.io/' target='_blank'rel="noopener noreferrer" aria-label="Site page" className={styles.btn}>Sito</a>
+                    <a href='https://github.com/fedcal/TemplaeteWebsite1.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
+                    <a href='https://fedcal.github.io/TemplaeteWebsite1.github.io/' target='_blank'rel="noopener noreferrer" aria-label="Site page" className='btn'>Sito</a>
                 </div>
             </div>
 
             <div className={styles.projectCard}>
-                <Image loading="lazy" decoding="async" src={worldsInn} alt="Preview del sito di worlds inn"/>
+                <Image loading="lazy" decoding="async" src={worldsInn} alt="Preview del sito di worlds inn" />
                 <h2 className={styles.projectTitle}>Worlds' Inn</h2>
                 <div className={styles.proDetails}>
                     <p>Sito web riguardante un progetto relativo ai giochi di ruolo. Realizzato con il linguaggio Sass, HTML  e javascript, il sito è
@@ -133,12 +132,12 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io'target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.btn}>GitHub</a>
+                    <a href='https://github.com/fedcal/websiteWorldsInn.github.io'target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>GitHub</a>
                 </div>
             </div>
 
             <div className={styles.projectCard}>
-                <Image loading="lazy" decoding="async" src={casaMagnolie} alt="Preview del sito Casa delle Magnolie"/>
+                <Image loading="lazy" decoding="async" src={casaMagnolie} alt="Preview del sito Casa delle Magnolie" />
                 <h2 className={styles.projectTitle}>Casa Delle Magnolie</h2>
                 <div className={styles.proDetails}>
                     <p>Sito web di una casa vacanza sita a Gallipoli, nel cuore del salento. Sito realizzato con HTML, CSS e Javascript. Anche in questo 
@@ -147,13 +146,13 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/casadellemagnolie.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.btn}>GitHub</a>
-                    <a href='https://casadellemagnolie.com/'target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.btn}>Sito</a>
+                    <a href='https://github.com/fedcal/casadellemagnolie.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
+                    <a href='https://casadellemagnolie.com/'target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>Sito</a>
                 </div>
             </div>
 
             <div className={styles.projectCard}>
-                <Image loading="lazy" decoding="async" src={pizzeria} alt="Preview del sito template per una pizzeria"/>
+                <Image loading="lazy" decoding="async" src={pizzeria} alt="Preview del sito template per una pizzeria" />
                 <h2 className={styles.projectTitle}>Sito template pizzeria</h2>
                 <div className={styles.proDetails}>
                     <p>Ho realizzato un piccolo sito web rappresentante un template per una pizzeria. E' stato sviluppato
@@ -163,8 +162,8 @@ function WorkCard() {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/template_pizzeria1.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className={styles.btn}>GitHub</a>
-                    <a href='https://fedcal.github.io/template_pizzeria1.github.io/'target='_blank'rel="noopener noreferrer" aria-label="Github page" className={styles.btn}>Sito</a>
+                    <a href='https://github.com/fedcal/template_pizzeria1.github.io' target='_blank'rel="noopener noreferrer" aria-label="Github page"className='btn'>GitHub</a>
+                    <a href='https://fedcal.github.io/template_pizzeria1.github.io/'target='_blank'rel="noopener noreferrer" aria-label="Github page" className='btn'>Sito</a>
                 </div>
             </div>
         </div>

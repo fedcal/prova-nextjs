@@ -1,12 +1,12 @@
 import styles from '@/styles/About.module.css';
-import profilo from '@/assets/profilo.webp';
+import profilo from '../../../public/profilo.webp';
 import Image from 'next/image';
 
 const AboutContent = () => {
     return (
       <div className={styles.about}>
           <div className={styles.content}>
-              <Image src={profilo} alt="Foto immagine profilo Federico Calò, sviluppaotre software"/>
+              <Image src={profilo} alt="Foto immagine profilo Federico Calò, sviluppaotre software" />
               <div className={styles.text}>
                   <h1>Mi presento</h1>
                   <p>Sono Federico Calò, sviluppatore software. Studio informatica presso l&apos;università Aldo Moro di Bari. Durante gli Studi
@@ -36,7 +36,7 @@ const AboutContent = () => {
                       <br/>
                       <br/>
                       <div className={styles.cvDw}>
-                          <a href="@/assets/CV_Federico_Calo.pdf" className='btn' download>Scarica CV</a>
+                          <a href="@/CV_Federico_Calo.pdf" className='btn' download>Scarica CV</a>
                       </div>
               </div>
               

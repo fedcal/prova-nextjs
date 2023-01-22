@@ -1,8 +1,8 @@
 import styles from '@/styles/WorkCard.module.css';
-import abitareMicocci from '@/assets/abitaremicocci.webp';
-import portfolio from '@/assets/portfolio.webp';
-import regressionTree from '@/assets/tree3.webp';
-import {Link} from 'next/link';
+import abitareMicocci from '../../../public/abitaremicocci.webp';
+import portfolio from '../../../public/portfolio.webp';
+import regressionTree from '../../../public/tree3.webp';
+import Link from 'next/link';
 import Image from 'next/image';
 
 const WorkCardPreview = ()=> {
@@ -12,7 +12,7 @@ const WorkCardPreview = ()=> {
         <div className={styles.projectContainer}>
             
             <div className={styles.projectCard}>
-                <Image src={portfolio} alt="preview del sito personale"/>
+                <Image src={portfolio} alt="preview del sito personale" />
                 <h2 className={styles.projectTitle}>Portfolio Personale</h2>
                 <div className={styles.proDetails}>
                     <p>Nato come progetto sviluppato nel tempo libero, questo mio sito web è stato realizzato interamente con la 
@@ -22,13 +22,13 @@ const WorkCardPreview = ()=> {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/portfolio-personale-reactjs' className={styles.btn}>GitHub</a>
-                    <a href='https://federicocalo.dev/' className={styles.btn}>Sito</a>
+                    <a href='https://github.com/fedcal/portfolio-personale-reactjs' className='btn'>GitHub</a>
+                    <a href='https://federicocalo.dev/' className='btn'>Sito</a>
                 </div>
             </div>
 
             <div className={styles.projectCard}>
-                <Image src={abitareMicocci} alt="Preview del sito di Abitare Micocci"/>
+                <Image src={abitareMicocci} alt="Preview del sito di Abitare Micocci" />
                 <h2 className={styles.projectTitle}>Abitare Micocci</h2>
                 <div className={styles.proDetails}>
                     <p>Sito web realizzato per un negozio di arredamento attraverso i linguaggi HTML, CSS e Javascript. Attraverso l'utilizzo
@@ -38,13 +38,13 @@ const WorkCardPreview = ()=> {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/AbitareMicocci/abitare.github.io' className={styles.btn}>GitHub</a>
-                    <a href='https://abitaremicocci.com/' className={styles.btn}>Sito</a>
+                    <a href='https://github.com/AbitareMicocci/abitare.github.io' className='btn'>GitHub</a>
+                    <a href='https://abitaremicocci.com/' className='btn'>Sito</a>
                 </div>
             </div>
 
             <div className={styles.projectCard}>
-                <Image src={regressionTree} alt="Immagine di un regression Tree Mining"/>
+                <Image src={regressionTree} alt="Immagine di un regression Tree Mining" />
                 <h2 className={styles.projectTitle}>Regression Tree Mining</h2>
                 <div className={styles.proDetails}>
                     <p>Progetto universitario sviluppato in Java. Consiste nel creare un albero di regressione da dei dati che vengono
@@ -53,12 +53,12 @@ const WorkCardPreview = ()=> {
                     </p>
                 </div>
                 <div className={styles.proBtns}>
-                    <a href='https://github.com/fedcal/RegressionTreeJava' className={styles.btn}>GitHub</a>
+                    <a href='https://github.com/fedcal/RegressionTreeJava' className='btn'>GitHub</a>
                 </div>
             </div>
         </div>
-        <div className='projectHeading'>
-            <Link href='/progetti'className={styles.btn}>Tutti i progetti</Link>
+        <div className={styles.projectHeading}>
+            <Link href='/progetti'className='btn'>Tutti i progetti</Link>
         
         </div>
         
