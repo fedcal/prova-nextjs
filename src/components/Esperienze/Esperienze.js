@@ -28,7 +28,7 @@ const Esperienze = () => {
                                 <h2 className={styles.timelineTitle}>Links Management and Technology SPA</h2>
                                 <p className={styles.timelineText}>Stage nel ruolo di analista software:
                                 <ul>
-                                    <li>Analisi software AS-IS e TO-BE nell'ambito di un progetto relativo alla pubblica amministrazione</li>
+                                    <li>Analisi software AS-IS e TO-BE nell&apos;ambito di un progetto relativo alla pubblica amministrazione</li>
                                     <li>Formazione riguardante Java, la programmazione OO, Design Patterns, Git, Docker e Flussi ETL</li>
                                 </ul>
                                 </p>
@@ -39,7 +39,7 @@ const Esperienze = () => {
                                 <h4 className={styles.timelineDate}><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>02/02/2021 - 29/10/2021</h4>
                                 <h2 className={styles.timelineTitle}>WebScience</h2>
                                 <p className={styles.timelineText}>
-                                Assunzione in qualità Software Developer Junior presso l'azienda WebScience. Attività svolte:
+                                Assunzione in qualità Software Developer Junior presso l&apos;azienda WebScience. Attività svolte:
                                 <ul>
                                     <li>Analisi software AS-IS e TO-BE</li>
                                     <li>Evolutive SEO WebSite</li>
@@ -63,14 +63,14 @@ const Esperienze = () => {
                                 <div className={styles.circleDot}></div>
                                 <h4 className={styles.timelineDate}><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>2017</h4>
                                 <h2 className={styles.timelineTitle}> Inizio studi universitari in Informatic</h2>
-                                <p className={styles.timelineText}>Immatricolazione presso l'università Aldo Moro di Bari, facoltà di Informatica. Classe di laurea L31</p>
+                                <p className={styles.timelineText}>Immatricolazione presso l&apos;università Aldo Moro di Bari, facoltà di Informatica. Classe di laurea L31</p>
                             </div>
 
                             <div className={styles.timelineItem}>
                                 <div className={styles.circleDot}></div>
                                 <h4 className={styles.timelineDate}><AiOutlineCalendar size={18} style={{color: "#fff", marginRight:'0.5rem'}}/>2012-2017</h4>
                                 <h2 className={styles.timelineTitle}>Diploma di scuola superiore I.T.C Cezzi De Castro Moro</h2>
-                                <p className={styles.timelineText}>Diploma di maturità conseguito presso l'Istituto Tecnico Commerciale Cezzi De Castro Moro, con indirizzo Sistemi Informativi Aziendali.</p>
+                                <p className={styles.timelineText}>Diploma di maturità conseguito presso l&apos;Istituto Tecnico Commerciale Cezzi De Castro Moro, con indirizzo Sistemi Informativi Aziendali.</p>
                             </div>
 
                         </div>
