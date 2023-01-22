@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Immagini / -->
+  <url>
+    <loc>https://www.federicocalo.dev/</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/profilo.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/hero.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/portfolio.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/abitaremicocci.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/tree3.webp</image:loc>
+      </image:image>
+      <lastmod>2023-01-18</lastmod>
+  </url>
+  <!-- Immagini /presentazioni -->
+  <url>
+    <loc>https://www.federicocalo.dev/presentazioni</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/profilo.webp</image:loc>
+      </image:image>
+      <lastmod>2023-01-18</lastmod>
+  </url>
+  <!-- Immagini /progetti -->
+  <url>
+    <loc>https://www.federicocalo.dev/progetti</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/portfolio.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/abitaremicocci.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/tree3.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/gestionaleDipendenti.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/tcp.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/udp.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/PortfolioTamplate1.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/worldsinn.webp</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/casaMagnolie.webp</image:loc>
+      </image:image>
+      <lastmod>2023-01-18</lastmod>
+  </url>
+   <!-- Immagini /servizi -->
+  <url>
+    <loc>https://www.federicocalo.dev/servizi</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
+      </image:image>
+      <lastmod>2023-01-20</lastmod>
+  </url>
+  <!-- Immagini /contatti -->
+  <url>
+    <loc>https://www.federicocalo.dev/contatti</loc>
+    <changefreq>monthly</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+  <!-- Immagini /blog -->
+  <url>
+    <loc>https://www.federicocalo.dev/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/progetti-img.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/RetiDiCalcolatori 500.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/libri_500.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/ium_500.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/caseStudy_500.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/icon_500.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_500.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-21</lastmod>
+  </url>
+  <!-- Immagini /Reti-di-Calcolatori-Introduzione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Reti-di-Calcolatori-Introduzione</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/SchemaReti.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/rdc_1900.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/AccessoViaCavo.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/AccessoAziendale.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+  <!-- Immagini /Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Reti-di-Calcolatori-Vari-Tipi-Di-Commutazione</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/Figura1.webp</image:loc>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.federicocalo.dev/static/media/rdc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+   <!-- Immagini /Libri-consigliati-01 -->
+  <url>
+    <loc>https://www.federicocalo.dev/Libri-consigliati-01</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/libri_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+  <!-- Immagini /Interazione-uomo-macchina-Introduzione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Interazione-uomo-macchina-Introduzione</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/ium_1900.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/ModelloNormanSod.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+  <!-- Immagini /Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Interazione-uomo-macchina-Usabilita-e-Modello-di-iterazione</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/ium_1900.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/modelloDiNorman.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+  <!-- Immagini /Gestionale-associazione-intro -->
+  <url>
+    <loc>https://www.federicocalo.dev/Gestionale-associazione-intro</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/caseStudy_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+  <!-- Immagini /Gestionale-associazione-diagramma-entita-relazione -->
+  <url>
+    <loc>https://www.federicocalo.dev/Gestionale-associazione-diagramma-entita-relazioneo</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/caseStudy_1900.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/entita-relazione.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+   <!-- Immagini /Interazione-uomo-macchina-Conoscere-l-utente -->
+  <url>
+    <loc>https://www.federicocalo.dev/Interazione-uomo-macchina-Conoscere-l-utente</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/caseStudy_1900.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/memorie.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+  <!-- Immagini /Introduzione-ingegneria-della-conoscenza -->
+  <url>
+    <loc>https://www.federicocalo.dev/Introduzione-ingegneria-della-conoscenza</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/icon_1900.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/task.webp</image:loc>
+    </image:image>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/agente-ambiente.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+   <!-- Immagini /Spazio-di-progettazione-di-un-agente -->
+  <url>
+    <loc>https://www.federicocalo.dev/Spazio-di-progettazione-di-un-agente</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/icon_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+   <!-- Immagini /Controlli-e-azioni-di-un-agente -->
+  <url>
+    <loc>https://www.federicocalo.dev/All-interno-di-un-agente-architettura-e-le-funzioni-agente</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/icon_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+  <!-- Immagini /Controlli-e-azioni-di-un-agente -->
+  <url>
+    <loc>https://www.federicocalo.dev/Controlli-e-azioni-di-un-agente</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/icon_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+  <!-- Immagini /Introduzione-alla-Calcolabilita-e-Complessita -->
+  <url>
+    <loc>https://www.federicocalo.dev/Introduzione-alla-Calcolabilita-e-Complessita</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+  <!-- Immagini /Automi-e-linguaggi-regolari -->
+  <url>
+    <loc>https://www.federicocalo.dev/Automi-e-linguaggi-regolari</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+  <!-- Immagini /Espressioni-regolari-e-linguaggi-non-regolari -->
+  <url>
+    <loc>https://www.federicocalo.dev/Espressioni-regolari-e-linguaggi-non-regolari</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-18</lastmod>
+  </url>
+
+  <!-- Immagini /Latex-Comandi-e-simboli-matematici -->
+  <url>
+    <loc>https://www.federicocalo.dev/Latex-simboli-e-sintassi</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/LaTeX_logo.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-20</lastmod>
+  </url>
+
+  <!-- Immagini /Latex-Comandi-e-simboli-matematici -->
+  <url>
+    <loc>https://www.federicocalo.dev/Linguaggi-context-free-e-automi-a-pila</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-20</lastmod>
+  </url>
+
+  <!-- Immagini /Latex-Comandi-e-simboli-matematici -->
+  <url>
+    <loc>https://www.federicocalo.dev/Linguaggi-non-context-free-e-linguaggi-context-free-deterministici</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-20</lastmod>
+  </url>
+
+  <!-- Immagini /Le-macchine-di-Turing -->
+  <url>
+    <loc>https://www.federicocalo.dev/Le-macchine-di-Turing</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-21</lastmod>
+  </url>
+
+  <!-- Immagini /Dedicibilità-e-indecidibilità -->
+  <url>
+    <loc>https://www.federicocalo.dev/Dedicibilità-e-indecidibilità</loc>
+    <changefreq>daily</changefreq>
+    <priority>01.0</priority>
+    <image:image>
+       <image:loc>https://www.federicocalo.dev/static/media/cc_1900.webp</image:loc>
+    </image:image>
+    <lastmod>2023-01-21</lastmod>
+  </url>
+
+
+  
+  
+</urlset>

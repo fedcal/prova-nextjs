@@ -2,11 +2,11 @@ import ContactBoxes from "@/components/Contact/ContactBoxes";
 import Footer from "@/components/Footer/Footer";
 import HeroImg2 from "@/components/Hero/HeroImg2";
 import Navbar from "@/components/Navbar/Navbar";
-
+import Head from 'next/head';
 const Contatti = () =>{
     return (
         <>
-            <Helmet>
+            <Head>
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
                 crossorigin="anonymous"></script>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,7 +25,7 @@ const Contatti = () =>{
                 <meta name='apple-touch-fullscreen' content='yes'/>
                 <title>Federico Calò - Contatti</title>
                 <link rel="canonical" href="https://www.federicocalo.dev/contatti" />
-            </Helmet>
+            </Head>
             <Navbar/>
             <HeroImg2 heading="CONTATTAMI"text="Compila il forum per lasciarmi un messaggio."/>
             <ContactBoxes/>
