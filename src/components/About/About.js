@@ -46,4 +46,4 @@ const AboutContent = () => {
     )
   }
   
-  export default AboutContent
+  export default AboutContent;

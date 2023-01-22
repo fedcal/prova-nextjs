@@ -1,0 +1,57 @@
+.projectHeading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+.projectContainer{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px ;
+    padding-bottom:5rem ;
+}
+.projectCard{
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    flex-direction: column;
+    line-height: 27px;
+    word-spacing: 2px;
+    display: flex;
+}
+.projectCard img{
+    width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+}
+.projectCard .projectTitle{
+    color: rgb(248, 217, 15); ;
+    padding: 1rem 0;
+}
+.projectCard .proDetails p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.projectCard  .proBtns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-top:auto;
+    bottom: 0;
+}
+.projectCard .proBtns .btn{
+    padding: 0.5rem 1rem;
+
+}
+
+.to-projects{
+    padding: 4rem 0 2rem 0;
+}
+
+@media screen and (max-width:740px){
+    .projectContainer{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

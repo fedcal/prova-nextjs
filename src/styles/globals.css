@@ -26,7 +26,7 @@ ul{
   font-weight: 600;
   cursor: pointer;
 }
-.btn-light{
+.btnLight{
   /*background: rgba(255,255,255,0.2);*/
   background: transparent;
   color:#fff;
