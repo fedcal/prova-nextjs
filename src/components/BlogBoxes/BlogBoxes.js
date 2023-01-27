@@ -13,17 +13,17 @@ import Image from 'next/image';
 const BlogBoxes = () => {
     return (
         <div className={styles.container} >
-            <div className={[styles.postFilter, styles.container]} >
+            <div className={[styles.postFilter, styles.container].join(' ')} >
                 <span className={[styles.filterItem, styles.activeFilter]} data-filter='all'>Tutti</span>
                 <span className={styles.filterItem} data-filter='uni'>Appunti Università</span>
                 <span className={styles.filterItem} data-filter='libri'>Libri</span>
                 <span className={styles.filterItem} data-filter='casestudy'>Case Study</span>
                 <span className={styles.filterItem} data-filter='altro'>Altro</span>
             </div>
-            <section className={[styles.post, styles.container,styles.section]}>
+            <section className={[styles.post, styles.container,styles.section].join(' ')}>
 
 
-                <article  itemScope  itemType="https://schema.org/BlogPosting" className={[styles.postBox, styles.uni, styles.all]}>
+                <article  itemScope  itemType="https://schema.org/BlogPosting" className={[styles.postBox, styles.uni, styles.all].join(' ')}>
                     <Image loading="lazy" decoding="async" src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className={styles.postImg} title='reti di calcolatori'/>
                     <h3 className={styles.category}>Appunti Universitari - Reti di Calcolatori</h3>
                     <h1 className={styles.postTitle}>1. Introduzione alle reti </h1>
