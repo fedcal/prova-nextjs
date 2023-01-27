@@ -40,3 +40,10 @@ ul{
 .content .pulsante{
   margin:1rem 0.2rem;
 }
+
+.activeFilter{
+  background: rgb(248, 217, 15);
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: #000;
+}

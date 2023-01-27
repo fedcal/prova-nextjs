@@ -14,16 +14,16 @@ const BlogBoxes = () => {
     return (
         <div className={styles.container} >
             <div className={[styles.postFilter, styles.container].join(' ')} >
-                <span className={[styles.filterItem, styles.activeFilter].join(' ')} data-filter='all'>Tutti</span>
-                <span className={styles.filterItem} data-filter='uni'>Appunti Università</span>
-                <span className={styles.filterItem} data-filter='libri'>Libri</span>
-                <span className={styles.filterItem} data-filter='casestudy'>Case Study</span>
-                <span className={styles.filterItem} data-filter='altro'>Altro</span>
+                <span className={[styles.filterItem, styles.activeFilter, 'filterItem'].join(' ')} data-filter='all'>Tutti</span>
+                <span className={[styles.filterItem, 'filterItem'].join(' ')} data-filter='uni'>Appunti Università</span>
+                <span className={[styles.filterItem, 'filterItem'].join(' ')} data-filter='libri'>Libri</span>
+                <span className={[styles.filterItem, 'filterItem'].join(' ')} data-filter='casestudy'>Case Study</span>
+                <span className={[styles.filterItem, 'filterItem'].join(' ')} data-filter='altro'>Altro</span>
             </div>
             <section className={[styles.post, styles.container,styles.section].join(' ')}>
 
 
-                <article  itemScope  itemType="https://schema.org/BlogPosting" className={[styles.postBox, styles.uni, styles.all].join(' ')}>
+                <article  itemScope  itemType="https://schema.org/BlogPosting" className={['postBox uni', styles.postBox, styles.uni, styles.all].join(' ')}>
                     <Image loading="lazy" decoding="async" src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className={styles.postImg} title='reti di calcolatori'/>
                     <h3 className={styles.category}>Appunti Universitari - Reti di Calcolatori</h3>
                     <h1 className={styles.postTitle}>1. Introduzione alle reti </h1>
@@ -34,7 +34,7 @@ const BlogBoxes = () => {
                     </div>
                 </article>
 
-                <article  itemScope  itemType="https://schema.org/BlogPosting" className={[styles.postBox, styles.libri, styles.all].join(' ')}>
+                <article  itemScope  itemType="https://schema.org/BlogPosting" className={['postBox uni', styles.postBox, styles.libri, styles.all].join(' ')}>
                     <Image loading="lazy" decoding="async" src={LogoRDC} alt="Logo riferito ai post della materia reti di calcolatori" className={styles.postImg} title='reti di calcolatori'/>
                     <h3 className={styles.category}>Appunti Universitari - Reti di Calcolatori</h3>
                     <h1 className={styles.postTitle}>1. Introduzione alle reti </h1>
