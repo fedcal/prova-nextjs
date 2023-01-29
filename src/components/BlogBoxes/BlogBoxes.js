@@ -28,7 +28,7 @@ const BlogBoxes = () => {
                     <h3 className={styles.category}>Appunti Universitari - Reti di Calcolatori</h3>
                     <h1 className={styles.postTitle}>1. Introduzione alle reti </h1>
                     <time dateTime="2022-11-01" className={styles.postDate} temprop="datePublished" content="2022-11-01T08:00:00+08:00"> 1 Novembre 2022</time> <span  itemProp="author" itemScope itemType="https://schema.org/Person"><a itemProp="url" href='https://www.federicocalo.dev' className='autore'><span itemProp="name">Federico Calò</span></a></span>
-                    <p className={styles.postDescription}>Introduzione alle reti di calcolatori, fornendo un'immagine di come si è evoluta l'infrastruttura di Internet, analizzando i due tipi di commutazione delle informazioni presenti in essa e i vari parametri di valutazione.</p>
+                    <p className={styles.postDescription}>Introduzione alle reti di calcolatori, fornendo un&apos;immagine di come si è evoluta l&apos;infrastruttura di Internet, analizzando i due tipi di commutazione delle informazioni presenti in essa e i vari parametri di valutazione.</p>
                     <div className={styles.link}>
                         <Link href="/Reti-di-Calcolatori-Introduzione" className={styles.pulsante}>Leggi Post</Link>
                     </div>
