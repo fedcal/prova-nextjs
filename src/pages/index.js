@@ -50,7 +50,7 @@ export default function Home() {
   
     <div className={styles.container}>
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-S3TS9T66B6"></Script>
-      <Script>{`
+      <Script id="Script1">{`
         window.dataLayer = window.dataLayer || [];
         function gtag() {
           dataLayer.push(arguments);
@@ -59,7 +59,7 @@ export default function Home() {
 
         gtag("config", "G-S3TS9T66B6");`}
       </Script>
-      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} id="Script2"/>
       <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9556331893712433"
         crossOrigin="anonymous"></Script>
       <Script src="https://code.jquery.com/jquery-3.6.1.js"  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossOrigin="anonymous"></Script>
